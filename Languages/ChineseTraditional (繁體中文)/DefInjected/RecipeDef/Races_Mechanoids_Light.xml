@@ -2,24 +2,24 @@
 <LanguageData>
   
   <!-- EN: gestate walker gear -->
-  <MGR_BuildWalkerGear.label>TODO</MGR_BuildWalkerGear.label>
+  <MGR_BuildWalkerGear.label>培育輕裝步行機</MGR_BuildWalkerGear.label>
   <!-- EN: Gestate a walker gear. -->
-  <MGR_BuildWalkerGear.description>TODO</MGR_BuildWalkerGear.description>
+  <MGR_BuildWalkerGear.description>培育輕裝步行機</MGR_BuildWalkerGear.description>
   <!-- EN: Gestating mech. -->
-  <MGR_BuildWalkerGear.jobString>TODO</MGR_BuildWalkerGear.jobString>
+  <MGR_BuildWalkerGear.jobString>培育中</MGR_BuildWalkerGear.jobString>
   
   <!-- EN: gestate walker gear flamer -->
-  <MGR_BuildWalkerGearFlamer.label>TODO</MGR_BuildWalkerGearFlamer.label>
+  <MGR_BuildWalkerGearFlamer.label>培育噴火步行機</MGR_BuildWalkerGearFlamer.label>
   <!-- EN: Gestate a walker gear. -->
-  <MGR_BuildWalkerGearFlamer.description>TODO</MGR_BuildWalkerGearFlamer.description>
+  <MGR_BuildWalkerGearFlamer.description>培育噴火步行機</MGR_BuildWalkerGearFlamer.description>
   <!-- EN: Gestating mech. -->
-  <MGR_BuildWalkerGearFlamer.jobString>TODO</MGR_BuildWalkerGearFlamer.jobString>
+  <MGR_BuildWalkerGearFlamer.jobString>培育中</MGR_BuildWalkerGearFlamer.jobString>
   
   <!-- EN: gestate walker gear gunner -->
-  <MGR_BuildWalkerGearGunner.label>TODO</MGR_BuildWalkerGearGunner.label>
+  <MGR_BuildWalkerGearGunner.label>培育機槍步行機</MGR_BuildWalkerGearGunner.label>
   <!-- EN: Gestate a walker gear. -->
-  <MGR_BuildWalkerGearGunner.description>TODO</MGR_BuildWalkerGearGunner.description>
+  <MGR_BuildWalkerGearGunner.description>培育機槍步行機</MGR_BuildWalkerGearGunner.description>
   <!-- EN: Gestating mech. -->
-  <MGR_BuildWalkerGearGunner.jobString>TODO</MGR_BuildWalkerGearGunner.jobString>
+  <MGR_BuildWalkerGearGunner.jobString>培育中</MGR_BuildWalkerGearGunner.jobString>
   
 </LanguageData>

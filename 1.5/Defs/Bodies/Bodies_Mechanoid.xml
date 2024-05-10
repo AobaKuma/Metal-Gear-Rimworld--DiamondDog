@@ -27,6 +27,18 @@
     </tags>
   </BodyPartDef>
   
+  <BodyPartDef>
+    <defName>MGR_PowerClaw</defName>
+    <label>power claw</label>
+    <hitPoints>50</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
   <BodyDef>
     <defName>Mech_WalkerGear</defName>
     <label>a bipedal robot walker that has combat capabilities, it is supposed to be manned but people in rimworld find out it works better without man.</label>
@@ -265,13 +277,10 @@
               </groups>
             </li>
 		    	  <li>
-              <def>PowerClaw</def>
+              <def>MGR_PowerClaw</def>
               <customLabel>left toe claw</customLabel>
               <coverage>0.1</coverage>
               <height>Bottom</height>
-              <groups>
-              <li>LeftPowerClaw</li>
-              </groups>
             </li>
           </parts>
           <groups>
@@ -294,13 +303,10 @@
               </groups>
             </li>
 			      <li>
-              <def>PowerClaw</def>
+              <def>MGR_PowerClaw</def>
               <customLabel>right toe claw</customLabel>
               <coverage>0.1</coverage>
               <height>Bottom</height>
-			        <groups>
-                <li>RightPowerClaw</li>
-              </groups>
             </li>
           </parts>
           <groups>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mounted machinegun -->
+  <MGR_Gun_Autocannon.label>挂载机枪</MGR_Gun_Autocannon.label>
+  <!-- EN: An machinegun mounted on the platform. -->
+  <MGR_Gun_Autocannon.description>安装在月光无人机平台上的重型机枪</MGR_Gun_Autocannon.description>
+  <!-- EN: barrel -->
+  <MGR_Gun_Autocannon.tools.barrel.label>枪管</MGR_Gun_Autocannon.tools.barrel.label>
+  <!-- EN: mounted machinegun -->
+  <MGR_Gun_Autocannon.verbs.Verb_Shoot.label>挂载机枪</MGR_Gun_Autocannon.verbs.Verb_Shoot.label>
+  
+</LanguageData>

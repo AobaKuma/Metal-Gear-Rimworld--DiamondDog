@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: mounted machinegun -->
-  <MGR_Gun_Autocannon.label>TODO</MGR_Gun_Autocannon.label>
+  <MGR_Gun_Autocannon.label>掛載機槍</MGR_Gun_Autocannon.label>
   <!-- EN: An machinegun mounted on the platform. -->
-  <MGR_Gun_Autocannon.description>TODO</MGR_Gun_Autocannon.description>
+  <MGR_Gun_Autocannon.description>安裝在月光無人機平台上的重型機槍</MGR_Gun_Autocannon.description>
   <!-- EN: barrel -->
-  <MGR_Gun_Autocannon.tools.barrel.label>TODO</MGR_Gun_Autocannon.tools.barrel.label>
+  <MGR_Gun_Autocannon.tools.barrel.label>槍管</MGR_Gun_Autocannon.tools.barrel.label>
   <!-- EN: mounted machinegun -->
-  <MGR_Gun_Autocannon.verbs.Verb_Shoot.label>TODO</MGR_Gun_Autocannon.verbs.Verb_Shoot.label>
+  <MGR_Gun_Autocannon.verbs.Verb_Shoot.label>掛載機槍</MGR_Gun_Autocannon.verbs.Verb_Shoot.label>
   
 </LanguageData>

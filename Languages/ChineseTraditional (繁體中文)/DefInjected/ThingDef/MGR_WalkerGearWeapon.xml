@@ -8,7 +8,7 @@
   <!-- EN: barrels -->
   <WG_Gun_Flamer.tools.barrels.label>機甲輔助臂</WG_Gun_Flamer.tools.barrels.label>
   <!-- EN: flame thrower -->
-  <WG_Gun_Flamer.verbs.Verb_SpewFire.label>TODO</WG_Gun_Flamer.verbs.Verb_SpewFire.label>
+  <WG_Gun_Flamer.verbs.Verb_SpewFire.label>火焰噴射</WG_Gun_Flamer.verbs.Verb_SpewFire.label>
   
   <!-- EN: minigun -->
   <WG_Gun_Minigun.label>多管機槍</WG_Gun_Minigun.label>
@@ -17,17 +17,6 @@
   <!-- EN: barrels -->
   <WG_Gun_Minigun.tools.barrels.label>機甲輔助臂</WG_Gun_Minigun.tools.barrels.label>
   <!-- EN: minigun -->
-  <WG_Gun_Minigun.verbs.Verb_Shoot.label>TODO</WG_Gun_Minigun.verbs.Verb_Shoot.label>
-  
-  <!-- EN: machete -->
-  <WG_Melee_Machete.label>開山刀</WG_Melee_Machete.label>
-  <!-- EN: an alloy machete design for walker gears. -->
-  <WG_Melee_Machete.description>設計由機甲持握的複合金屬開山刀.</WG_Melee_Machete.description>
-  <!-- EN: handle -->
-  <WG_Melee_Machete.tools.handle.label>機甲輔助臂</WG_Melee_Machete.tools.handle.label>
-  <!-- EN: point -->
-  <WG_Melee_Machete.tools.point.label>握把</WG_Melee_Machete.tools.point.label>
-  <!-- EN: edge -->
-  <WG_Melee_Machete.tools.edge.label>刀尖</WG_Melee_Machete.tools.edge.label>
+  <WG_Gun_Minigun.verbs.Verb_Shoot.label>多管機槍</WG_Gun_Minigun.verbs.Verb_Shoot.label>
   
 </LanguageData>

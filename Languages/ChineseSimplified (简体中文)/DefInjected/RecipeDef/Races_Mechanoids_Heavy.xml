@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gestate gekko mech -->
+  <MGR_BuildGekko.label>培育月光无人机</MGR_BuildGekko.label>
+  <!-- EN: Gestate a gekko mechanoid. -->
+  <MGR_BuildGekko.description>培育一架月光无人机</MGR_BuildGekko.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildGekko.jobString>培育中</MGR_BuildGekko.jobString>
+  
+</LanguageData>

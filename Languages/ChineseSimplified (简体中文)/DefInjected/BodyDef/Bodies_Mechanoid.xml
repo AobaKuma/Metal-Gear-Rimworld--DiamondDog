@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: a large unmanned autonomous fighting vehicle developed for use in ground combat in 21st century. -->
+  <Mech_Gekko.label>为21世纪地面作战而开发的大型无人自主战斗载具。</Mech_Gekko.label>
+  <!-- EN: Head Mounting platform -->
+  <Mech_Gekko.corePart.parts.Head_Mounting_platform.customLabel>头部挂载平台</Mech_Gekko.corePart.parts.Head_Mounting_platform.customLabel>
+  <!-- EN: left sight sensor cluster -->
+  <Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_sight_sensor_cluster.customLabel>左探测器阵列</Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_sight_sensor_cluster.customLabel>
+  <!-- EN: right sight sensor cluster -->
+  <Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_sight_sensor_cluster.customLabel>右探测器阵列</Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_sight_sensor_cluster.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>左收音装置</Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>右收音装置</Mech_Gekko.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left mounting -->
+  <Mech_Gekko.corePart.parts.left_mounting.customLabel>左旋转云台</Mech_Gekko.corePart.parts.left_mounting.customLabel>
+  <!-- EN: left mountpoint -->
+  <Mech_Gekko.corePart.parts.left_mounting.parts.left_mountpoint.customLabel>左挂载点</Mech_Gekko.corePart.parts.left_mounting.parts.left_mountpoint.customLabel>
+  <!-- EN: right mounting -->
+  <Mech_Gekko.corePart.parts.right_mounting.customLabel>右旋转云台</Mech_Gekko.corePart.parts.right_mounting.customLabel>
+  <!-- EN: right mountpoint -->
+  <Mech_Gekko.corePart.parts.right_mounting.parts.right_mountpoint.customLabel>右挂载点</Mech_Gekko.corePart.parts.right_mounting.parts.right_mountpoint.customLabel>
+  <!-- EN: left leg -->
+  <Mech_Gekko.corePart.parts.left_leg.customLabel>左腿</Mech_Gekko.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Mech_Gekko.corePart.parts.left_leg.parts.left_foot.customLabel>左足</Mech_Gekko.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left toe claw -->
+  <Mech_Gekko.corePart.parts.left_leg.parts.left_toe_claw.customLabel>左趾爪</Mech_Gekko.corePart.parts.left_leg.parts.left_toe_claw.customLabel>
+  <!-- EN: right leg -->
+  <Mech_Gekko.corePart.parts.right_leg.customLabel>右腿</Mech_Gekko.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Mech_Gekko.corePart.parts.right_leg.parts.right_foot.customLabel>右足</Mech_Gekko.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right toe claw -->
+  <Mech_Gekko.corePart.parts.right_leg.parts.right_toe_claw.customLabel>右趾爪</Mech_Gekko.corePart.parts.right_leg.parts.right_toe_claw.customLabel>
+  <!-- EN: battery -->
+  <Mech_Gekko.corePart.parts.battery.customLabel>电池</Mech_Gekko.corePart.parts.battery.customLabel>
+  
+  <!-- EN: -->
+  <Mech_WalkerGear.label>具有战斗能力的双足机器人，它本应该是有人驾驶的，但边缘世界的人们发现它在自主驾驶的情况下表现的更好。</Mech_WalkerGear.label>
+  <!-- EN: Head Mounting platform -->
+  <Mech_WalkerGear.corePart.parts.Head_Mounting_platform.customLabel>头部挂载</Mech_WalkerGear.corePart.parts.Head_Mounting_platform.customLabel>
+  <!-- EN: left sight sensor cluster -->
+  <Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_sight_sensor_cluster.customLabel>左探测器阵列</Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_sight_sensor_cluster.customLabel>
+  <!-- EN: right sight sensor cluster -->
+  <Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_sight_sensor_cluster.customLabel>右探测器阵列</Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_sight_sensor_cluster.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>左收音装置</Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>右收音装置</Mech_WalkerGear.corePart.parts.Head_Mounting_platform.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <!-- EN: left mounting -->
+  <Mech_WalkerGear.corePart.parts.left_mounting.customLabel>左旋转云台</Mech_WalkerGear.corePart.parts.left_mounting.customLabel>
+  <!-- EN: left mountpoint -->
+  <Mech_WalkerGear.corePart.parts.left_mounting.parts.left_mountpoint.customLabel>左挂载点</Mech_WalkerGear.corePart.parts.left_mounting.parts.left_mountpoint.customLabel>
+  <!-- EN: right mounting -->
+  <Mech_WalkerGear.corePart.parts.right_mounting.customLabel>右旋转云台</Mech_WalkerGear.corePart.parts.right_mounting.customLabel>
+  <!-- EN: right mountpoint -->
+  <Mech_WalkerGear.corePart.parts.right_mounting.parts.right_mountpoint.customLabel>右挂载点</Mech_WalkerGear.corePart.parts.right_mounting.parts.right_mountpoint.customLabel>
+  <!-- EN: left leg -->
+  <Mech_WalkerGear.corePart.parts.left_leg.customLabel>左腿</Mech_WalkerGear.corePart.parts.left_leg.customLabel>
+  <!-- EN: left foot -->
+  <Mech_WalkerGear.corePart.parts.left_leg.parts.left_foot.customLabel>左足</Mech_WalkerGear.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: right leg -->
+  <Mech_WalkerGear.corePart.parts.right_leg.customLabel>右腿</Mech_WalkerGear.corePart.parts.right_leg.customLabel>
+  <!-- EN: right foot -->
+  <Mech_WalkerGear.corePart.parts.right_leg.parts.right_foot.customLabel>右足</Mech_WalkerGear.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: battery -->
+  <Mech_WalkerGear.corePart.parts.battery.customLabel>电池</Mech_WalkerGear.corePart.parts.battery.customLabel>
+  
+</LanguageData>

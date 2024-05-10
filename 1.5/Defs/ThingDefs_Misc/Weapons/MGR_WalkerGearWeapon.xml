@@ -57,60 +57,6 @@
     </tools>
   </ThingDef>
 
-  <!--開山刀-->
-  <ThingDef ParentName="BaseWeapon">
-    <defName>WG_Melee_Machete</defName>
-    <label>machete</label>
-    <description>an alloy machete design for walker gears.</description>
-    <graphicData>
-      <texPath>Things/Weapons/WG_Machete</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
-    <relicChance>0</relicChance>
-    <smeltable>true</smeltable>
-    <statBases>
-      <Mass>8</Mass>
-      <MarketValue>100</MarketValue>
-    </statBases>
-    <weaponTags>
-      <li>MGR_MechanoidMachete</li>
-    </weaponTags>
-    <equippedAngleOffset>-35</equippedAngleOffset>
-    <weaponClasses>
-      <li>Melee</li>
-    </weaponClasses>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.7</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>28</power>
-        <cooldownTime>2.3</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>28</power>
-        <cooldownTime>2.3</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
   <!--火焰發射器-->
   <ThingDef ParentName="BaseGun">
     <defName>WG_Gun_Flamer</defName>

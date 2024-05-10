@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gestate walker gear -->
+  <MGR_BuildWalkerGear.label>培育轻装步行机</MGR_BuildWalkerGear.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGear.description>培育轻装步行机</MGR_BuildWalkerGear.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGear.jobString>培育中</MGR_BuildWalkerGear.jobString>
+  
+  <!-- EN: gestate walker gear flamer -->
+  <MGR_BuildWalkerGearFlamer.label>培育喷火步行机</MGR_BuildWalkerGearFlamer.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGearFlamer.description>培育喷火步行机</MGR_BuildWalkerGearFlamer.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGearFlamer.jobString>培育中</MGR_BuildWalkerGearFlamer.jobString>
+  
+  <!-- EN: gestate walker gear gunner -->
+  <MGR_BuildWalkerGearGunner.label>培育机枪步行机</MGR_BuildWalkerGearGunner.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGearGunner.description>培育机枪步行机</MGR_BuildWalkerGearGunner.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGearGunner.jobString>培育中</MGR_BuildWalkerGearGunner.jobString>
+  
+</LanguageData>

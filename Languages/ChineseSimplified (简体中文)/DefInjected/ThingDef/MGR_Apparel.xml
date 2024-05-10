@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: army cap -black -->
+  <MGR_ArmyCap_Black.label>军帽(黑)</MGR_ArmyCap_Black.label>
+  <!-- EN: a soft cap for military man when combat helmet is not required. -->
+  <MGR_ArmyCap_Black.description>一种非战斗人员穿戴的硬帽</MGR_ArmyCap_Black.description>
+  
+  <!-- EN: army cap -desert -->
+  <MGR_ArmyCap_Desert.label>军帽(沙漠)</MGR_ArmyCap_Desert.label>
+  <!-- EN: a soft cap for military man when combat helmet is not required. -->
+  <MGR_ArmyCap_Desert.description>一种非战斗人员穿戴的硬帽</MGR_ArmyCap_Desert.description>
+  
+  <!-- EN: army cap -olive -->
+  <MGR_ArmyCap_Olive.label>军帽(橄榄绿)</MGR_ArmyCap_Olive.label>
+  <!-- EN: a soft cap for military man when combat helmet is not required. -->
+  <MGR_ArmyCap_Olive.description>一种非战斗人员穿戴的硬帽</MGR_ArmyCap_Olive.description>
+  
+  <!-- EN: army cap -polar -->
+  <MGR_ArmyCap_Polar.label>军帽(极地)</MGR_ArmyCap_Polar.label>
+  <!-- EN: a soft cap for military man when combat helmet is not required. -->
+  <MGR_ArmyCap_Polar.description>一种非战斗人员穿戴的硬帽</MGR_ArmyCap_Polar.description>
+  
+  <!-- EN: army cap -yellow -->
+  <MGR_ArmyCap_Yellow.label>军帽(黄)</MGR_ArmyCap_Yellow.label>
+  <!-- EN: a soft cap for military man when combat helmet is not required. -->
+  <MGR_ArmyCap_Yellow.description>一种非战斗人员穿戴的硬帽</MGR_ArmyCap_Yellow.description>
+  
+  <!-- EN: Balaclava-black -->
+  <MGR_Balaclava_Black.label>战斗面罩(黑)</MGR_Balaclava_Black.label>
+  <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
+  <MGR_Balaclava_Black.description>一种旨在仅暴露部分脸部的面罩。</MGR_Balaclava_Black.description>
+  
+  <!-- EN: Balaclava(full-coverd)-black -->
+  <MGR_Balaclava_FullCover_Black.label>全覆面罩(黑)</MGR_Balaclava_FullCover_Black.label>
+  <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
+  <MGR_Balaclava_FullCover_Black.description>一种旨在仅暴露部分脸部的面罩。</MGR_Balaclava_FullCover_Black.description>
+  
+  <!-- EN: Balaclava(full-coverd)-yellow -->
+  <MGR_Balaclava_FullCover_Yellow.label>全覆面罩(黄)</MGR_Balaclava_FullCover_Yellow.label>
+  <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
+  <MGR_Balaclava_FullCover_Yellow.description>一种旨在仅暴露部分脸部的面罩。</MGR_Balaclava_FullCover_Yellow.description>
+  
+  <!-- EN: Balaclava-gas mask -->
+  <MGR_Balaclava_GasMask.label>防毒面罩(黑)</MGR_Balaclava_GasMask.label>
+  <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
+  <MGR_Balaclava_GasMask.description>一种旨在仅暴露部分脸部的面罩。</MGR_Balaclava_GasMask.description>
+  
+  <!-- EN: Balaclava-yellow -->
+  <MGR_Balaclava_Yellow.label>战斗面罩(黄)</MGR_Balaclava_Yellow.label>
+  <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
+  <MGR_Balaclava_Yellow.description>一种旨在仅暴露部分脸部的面罩。</MGR_Balaclava_Yellow.description>
+  
+  <!-- EN: battle dress -->
+  <MGR_BattleDress.label>战斗装甲服</MGR_BattleDress.label>
+  <!-- EN: Heavy armored gear equipment that gives full protect of body. -->
+  <MGR_BattleDress.description>一种提供严密保护的重型复合装甲防护服</MGR_BattleDress.description>
+  
+  <!-- EN: combat uniform -desert -->
+  <MGR_CU_Desert.label>战斗制服(沙漠)</MGR_CU_Desert.label>
+  <!-- EN: a jumpsuit designed for combat unit. -->
+  <MGR_CU_Desert.description>用于战斗人员的连身制服</MGR_CU_Desert.description>
+  
+  <!-- EN: combat uniform -olive -->
+  <MGR_CU_Olive.label>战斗制服(橄榄绿)</MGR_CU_Olive.label>
+  <!-- EN: a stuffable jumpsuit designed for combat unit. -->
+  <MGR_CU_Olive.description>用于战斗人员的连身制服</MGR_CU_Olive.description>
+  
+  <!-- EN: combat uniform -polar -->
+  <MGR_CU_Polar.label>战斗制服(极地)</MGR_CU_Polar.label>
+  <!-- EN: a jumpsuit designed for combat unit. -->
+  <MGR_CU_Polar.description>用于战斗人员的连身制服</MGR_CU_Polar.description>
+  
+  <!-- EN: combat uniform -splitter -->
+  <MGR_CU_Splitter.label>战斗制服(森林)</MGR_CU_Splitter.label>
+  <!-- EN: a jumpsuit designed for combat unit. -->
+  <MGR_CU_Splitter.description>用于战斗人员的连身制服</MGR_CU_Splitter.description>
+  
+  <!-- EN: combat uniform -->
+  <MGR_CU_Stuffable.label>战斗制服</MGR_CU_Stuffable.label>
+  <!-- EN: a stuffable jumpsuit designed for combat unit. -->
+  <MGR_CU_Stuffable.description>用于战斗人员的连身制服</MGR_CU_Stuffable.description>
+  
+  <!-- EN: combat uniform -tundra -->
+  <MGR_CU_Tundra.label>战斗制服(冻原)</MGR_CU_Tundra.label>
+  <!-- EN: a jumpsuit designed for combat unit. -->
+  <MGR_CU_Tundra.description>用于战斗人员的连身制服</MGR_CU_Tundra.description>
+  
+  <!-- EN: combat uniform -urban -->
+  <MGR_CU_Urban.label>战斗制服(都市)</MGR_CU_Urban.label>
+  <!-- EN: a jumpsuit designed for combat unit,it's camouflage can confuse enemies in\n			close combat. -->
+  <MGR_CU_Urban.description>用于战斗人员的连身制服</MGR_CU_Urban.description>
+  
+  <!-- EN: combat uniform -worksuit -->
+  <MGR_CU_WorkSuit.label>战斗制服(黄)</MGR_CU_WorkSuit.label>
+  <!-- EN: a jumpsuit designed for non-combatant unit. -->
+  <MGR_CU_WorkSuit.description>用于战斗人员的连身制服</MGR_CU_WorkSuit.description>
+  
+  <!-- EN: full-covered helmet -->
+  <MGR_FullCoveredHelmet.label>战斗装甲头盔</MGR_FullCoveredHelmet.label>
+  <!-- EN: a full covered helmet for heavy gunner and sappers -->
+  <MGR_FullCoveredHelmet.description>用于重型枪手与工兵的重型全覆式防弹头盔</MGR_FullCoveredHelmet.description>
+  
+  <!-- EN: tactical holster-black -->
+  <MGR_Holster_Black.label>战术枪带(黑)</MGR_Holster_Black.label>
+  <!-- EN: A light-weight harness with holster and a number of pouches to store magazines and other equipment. -->
+  <MGR_Holster_Black.description>一种轻型枪带，带有枪套和多个用于存放弹药和其他装备的小包。</MGR_Holster_Black.description>
+  
+  <!-- EN: tactical holster-olive -->
+  <MGR_Holster_Olive.label>战术枪带(橄榄绿)</MGR_Holster_Olive.label>
+  <!-- EN: A light-weight harness with holster and a number of pouches to store magazines and other equipment. -->
+  <MGR_Holster_Olive.description>一种轻型枪带，带有枪套和多个用于存放弹药和其他装备的小包。</MGR_Holster_Olive.description>
+  
+  <!-- EN: lab coat -->
+  <MGR_LabCoat.label>研究服</MGR_LabCoat.label>
+  <!-- EN: a labcoat for Research and Development units. -->
+  <MGR_LabCoat.description>用于工程研发部门的白色无尘大衣</MGR_LabCoat.description>
+  
+  <!-- EN: STABO grey -->
+  <MGR_STABO_Grey.label>STABO</MGR_STABO_Grey.label>
+  <!-- EN: A full body harness designed for airborne operation forces. -->
+  <MGR_STABO_Grey.description>用于空降部队的全身式绑带</MGR_STABO_Grey.description>
+  
+  <!-- EN: variable body armor -->
+  <MGR_VBA.label>VBA背心</MGR_VBA.label>
+  <!-- EN: A small arms protective body armor for aircrews. -->
+  <MGR_VBA.description>用于空勤机组人员保护的重型防弹背心</MGR_VBA.description>
+  
+</LanguageData>

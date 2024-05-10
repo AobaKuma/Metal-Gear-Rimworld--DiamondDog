@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseMechanoidWalker" Name="BaseWalkerGear">
     <defName>MGR_Mech_WalkerGear</defName>
     <label>walker gear</label>
-    <description>a small bipedal robot walker that has combat capabilities.</description>
+    <description>a small bipedal robot walker that have combat capabilities.</description>
     <statBases>
       <MoveSpeed>4.80</MoveSpeed>
       <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
@@ -132,9 +132,9 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <weaponMoney>9999~9999</weaponMoney>
+    <weaponMoney>1500~9999</weaponMoney>
     <weaponTags>
-      <li>MGR_MechanoidMachete</li>
+      <li>SimpleGun</li>
     </weaponTags>
     <combatPower>100</combatPower>
     <techHediffsChance>1</techHediffsChance>
@@ -142,13 +142,20 @@
     <controlGroupPortraitZoom>1</controlGroupPortraitZoom>
   </PawnKindDef>
 
-  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="BaseMechanoidRecipe" Name="BaseWalkerRecipe">
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" Name="BaseWalkerRecipe">
     <defName>MGR_BuildWalkerGear</defName>
     <label>gestate walker gear</label>
     <description>Gestate a walker gear.</description>
     <descriptionHyperlinks>
       <ThingDef>MGR_Mech_WalkerGear</ThingDef>
-    </descriptionHyperlinks>
+    </descriptionHyperlinks>    
+    <jobString>Gestating mech.</jobString>
+    <workAmount>1800</workAmount>
+    <gestationCycles>1</gestationCycles>
+    <formingTicks>12000</formingTicks><!-- 2 days -->
+    <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+    <workSpeedStat>MechFormingSpeed</workSpeedStat>
+    <soundWorking>MechGestatorCycle_Initiating</soundWorking>
     <gestationCycles>2</gestationCycles>
     <researchPrerequisite>BasicMechtech</researchPrerequisite>
     <ingredients Inherit="False">
@@ -166,7 +173,7 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>5</count>
       </li>
       <li>
         <filter>

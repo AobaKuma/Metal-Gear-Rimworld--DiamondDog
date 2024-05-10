@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Metal Gear Rimworld - DiamondDog</name>
-  	<author>Aoba</author>
-    <supportedVersions>
+	<author>Aoba</author>
+	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
 	<modIconPath>Icon/MGS_PlayerIcon</modIconPath>
 	<packageId>Aoba.DiamondDog.Core</packageId>
 	<description>V has come to...</description>
-	<modDependencies>       
-		 <li>
-		<packageId>ludeon.rimworld.biotech</packageId>
-		<displayName>Biotech</displayName>
-	</li>
-	  <li>
-		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-		<displayName>Vanilla Expanded Framework</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
-	  </li>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.Rimworld.Biotech</li>

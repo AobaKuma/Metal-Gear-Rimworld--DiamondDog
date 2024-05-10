@@ -8,7 +8,7 @@
     <visible>false</visible>
   </LifeStageDef>
 
-  <AbilityDef Name="LongJumpMech">
+  <AbilityDef MayRequire="ludeon.rimworld.biotech">
     <defName>MGR_LongjumpMech</defName>
     <label>mech longjump</label>
     <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
@@ -34,7 +34,7 @@
     </verbProperties>
   </AbilityDef>
 
-  <AbilityDef>
+  <AbilityDef MayRequire="ludeon.rimworld.biotech">
     <defName>MGR_AcidSpray</defName>
     <label>acid spray</label>
     <description>Spray a sticky acid substance from glands in the neck up through the excretory port and all over the target area. The acid will stick to targets and burn them over time.</description>
@@ -66,7 +66,7 @@
     <description>a large unmanned autonomous fighting vehicle developed for use in ground combat in 21st century. /n/n Attached to the hips were a pair of very strong legs with three-toed clawed feet and a single large claw on each heel./n These legs, unlike the head, neck, body and hips, were biological, save for the claw on the heel. The legs were composed of artificially created muscle tissue cloned from the stem cells of ungulate embryos. Owing to this, the legs, despite largely being mechanical, strongly resembled the muscles of living organisms.</description>
     <statBases>
       <MoveSpeed>6.80</MoveSpeed>
-      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
       <BandwidthCost MayRequire="Ludeon.RimWorld.Biotech">3</BandwidthCost>
       <CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
@@ -169,7 +169,7 @@
         </capacities>
         <power>17</power>
         <cooldownTime>2.5</cooldownTime>
-        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>LeftPowerLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -180,7 +180,7 @@
         </capacities>
         <power>17</power>
         <cooldownTime>2.5</cooldownTime>
-        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>RightPowerLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -249,18 +249,25 @@
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>9999~9999</techHediffsMoney>
     <abilities>
-      <li>MGR_AcidSpray</li>
-      <li>MGR_LongjumpMech</li>
+      <li MayRequire="ludeon.rimworld.biotech">MGR_AcidSpray</li>
+      <li MayRequire="ludeon.rimworld.biotech">MGR_LongjumpMech</li>
     </abilities>
     <controlGroupPortraitZoom>0.5</controlGroupPortraitZoom>
   </PawnKindDef>
 
-  <RecipeDef  MayRequire="Ludeon.RimWorld.Biotech" ParentName="HeavyMechanoidRecipe">
+  <RecipeDef  MayRequire="Ludeon.RimWorld.Biotech">
     <defName>MGR_BuildGekko</defName>
     <label>gestate gekko mech</label>
     <description>Gestate a gekko mechanoid.</description>
-    <gestationCycles>5</gestationCycles>
-    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <gestationCycles>4</gestationCycles>
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>    
+    <jobString>Gestating mech.</jobString>
+    <workAmount>1800</workAmount>
+    <gestationCycles>1</gestationCycles>
+    <formingTicks>12000</formingTicks><!-- 2 days -->
+    <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+    <workSpeedStat>MechFormingSpeed</workSpeedStat>
+    <soundWorking>MechGestatorCycle_Initiating</soundWorking>
     <ingredients Inherit="False">
       <li>
         <filter>

@@ -5,12 +5,15 @@
     <li>r_name->Diamond [dog]</li>
     <li>dog->Dog</li>
   -->
-  <MGR_DDFaction.rulePack.rulesStrings>TODO</MGR_DDFaction.rulePack.rulesStrings>
-  
-  <!-- EN:
-    <li>name->base.[Code]</li>
-    <li>name->fort.[Code]</li>
-    <li>name->outpost.[Code]</li>
+  <MGR_DDFaction.rulePack.rulesStrings>    
+    <li>r_name->鑽石[dog]</li>
+    <li>dog->狗</li>
+  </MGR_DDFaction.rulePack.rulesStrings>
+
+  <MGR_DDFactionOutposts.rulePack.rulesStrings>
+    <li>name->基地.[Code]</li>
+    <li>name->要塞.[Code]</li>
+    <li>name->站點.[Code]</li>
     <li>Code->alpha</li>
     <li>Code->bravo</li>
     <li>Code->charlie</li>
@@ -37,7 +40,6 @@
     <li>Code->xeno</li>
     <li>Code->yankee</li>
     <li>Code->zulu</li>
-  -->
-  <MGR_DDFactionOutposts.rulePack.rulesStrings>TODO</MGR_DDFactionOutposts.rulePack.rulesStrings>
+  </MGR_DDFactionOutposts.rulePack.rulesStrings>
   
 </LanguageData>

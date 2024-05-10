@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: walker -->
-  <MGR_Mech_WalkerGear.label>輕裝步行機甲</MGR_Mech_WalkerGear.label>
+  <MGR_Mech_WalkerGear.label>輕裝步行機</MGR_Mech_WalkerGear.label>
   
   <!-- EN: walker flamer -->
-  <MGR_Mech_WalkerGear_Flamer.label>噴火步行機甲</MGR_Mech_WalkerGear_Flamer.label>
+  <MGR_Mech_WalkerGear_Flamer.label>噴火步行機</MGR_Mech_WalkerGear_Flamer.label>
   
   <!-- EN: walker gunner -->
-  <MGR_Mech_WalkerGear_Gunner.label>機槍步行機甲</MGR_Mech_WalkerGear_Gunner.label>
+  <MGR_Mech_WalkerGear_Gunner.label>機槍步行機</MGR_Mech_WalkerGear_Gunner.label>
   
 </LanguageData>

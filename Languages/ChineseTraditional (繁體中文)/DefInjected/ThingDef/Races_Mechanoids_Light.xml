@@ -2,36 +2,36 @@
 <LanguageData>
   
   <!-- EN: walker gear -->
-  <MGR_Mech_WalkerGear.label>TODO</MGR_Mech_WalkerGear.label>
+  <MGR_Mech_WalkerGear.label>輕裝步行機</MGR_Mech_WalkerGear.label>
   <!-- EN: a small bipedal robot walker that has combat capabilities. -->
-  <MGR_Mech_WalkerGear.description>TODO</MGR_Mech_WalkerGear.description>
+  <MGR_Mech_WalkerGear.description>具有戰鬥能力的雙足機器人，它本應該是有人駕駛的，但邊緣世界的人們發現它在自主駕駛的情況下表現的更好。</MGR_Mech_WalkerGear.description>
   <!-- EN: Mechanical Head -->
-  <MGR_Mech_WalkerGear.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear.tools.Mechanical_Head.label>
+  <MGR_Mech_WalkerGear.tools.Mechanical_Head.label>頭部</MGR_Mech_WalkerGear.tools.Mechanical_Head.label>
   <!-- EN: Left arm -->
-  <MGR_Mech_WalkerGear.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear.tools.Left_arm.label>
+  <MGR_Mech_WalkerGear.tools.Left_arm.label>左手</MGR_Mech_WalkerGear.tools.Left_arm.label>
   <!-- EN: Right arm -->
-  <MGR_Mech_WalkerGear.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear.tools.Right_arm.label>
+  <MGR_Mech_WalkerGear.tools.Right_arm.label>右手</MGR_Mech_WalkerGear.tools.Right_arm.label>
   
   <!-- EN: walker gear -->
-  <MGR_Mech_WalkerGear_Flamer.label>TODO</MGR_Mech_WalkerGear_Flamer.label>
+  <MGR_Mech_WalkerGear_Flamer.label>噴火步行機</MGR_Mech_WalkerGear_Flamer.label>
   <!-- EN: a small bipedal robot walker that has combat capabilities. -->
-  <MGR_Mech_WalkerGear_Flamer.description>TODO</MGR_Mech_WalkerGear_Flamer.description>
+  <MGR_Mech_WalkerGear_Flamer.description>具有戰鬥能力的雙足機器人，它本應該是有人駕駛的，但邊緣世界的人們發現它在自主駕駛的情況下表現的更好。</MGR_Mech_WalkerGear_Flamer.description>
   <!-- EN: Mechanical Head -->
-  <MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>
+  <MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>頭部</MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>
   <!-- EN: Left arm -->
-  <MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>
+  <MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>左手</MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>
   <!-- EN: Right arm -->
-  <MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>
+  <MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>右手</MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>
   
   <!-- EN: walker gear -->
-  <MGR_Mech_WalkerGear_Gunner.label>TODO</MGR_Mech_WalkerGear_Gunner.label>
+  <MGR_Mech_WalkerGear_Gunner.label>機槍步行機</MGR_Mech_WalkerGear_Gunner.label>
   <!-- EN: a small bipedal robot walker that has combat capabilities. -->
-  <MGR_Mech_WalkerGear_Gunner.description>TODO</MGR_Mech_WalkerGear_Gunner.description>
+  <MGR_Mech_WalkerGear_Gunner.description>具有戰鬥能力的雙足機器人，它本應該是有人駕駛的，但邊緣世界的人們發現它在自主駕駛的情況下表現的更好。</MGR_Mech_WalkerGear_Gunner.description>
   <!-- EN: Mechanical Head -->
-  <MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>
+  <MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>頭部</MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>
   <!-- EN: Left arm -->
-  <MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>
+  <MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>左手</MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>
   <!-- EN: Right arm -->
-  <MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>
+  <MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>右手</MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>
   
 </LanguageData>

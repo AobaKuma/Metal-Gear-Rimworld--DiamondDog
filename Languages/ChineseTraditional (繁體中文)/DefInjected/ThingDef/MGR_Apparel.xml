@@ -2,128 +2,128 @@
 <LanguageData>
   
   <!-- EN: army cap -black -->
-  <MGR_ArmyCap_Black.label>TODO</MGR_ArmyCap_Black.label>
+  <MGR_ArmyCap_Black.label>軍帽(黑)</MGR_ArmyCap_Black.label>
   <!-- EN: a soft cap for military man when combat helmet is not required. -->
-  <MGR_ArmyCap_Black.description>TODO</MGR_ArmyCap_Black.description>
+  <MGR_ArmyCap_Black.description>一種非戰鬥人員穿戴的硬帽</MGR_ArmyCap_Black.description>
   
   <!-- EN: army cap -desert -->
-  <MGR_ArmyCap_Desert.label>TODO</MGR_ArmyCap_Desert.label>
+  <MGR_ArmyCap_Desert.label>軍帽(沙漠)</MGR_ArmyCap_Desert.label>
   <!-- EN: a soft cap for military man when combat helmet is not required. -->
-  <MGR_ArmyCap_Desert.description>TODO</MGR_ArmyCap_Desert.description>
+  <MGR_ArmyCap_Desert.description>一種非戰鬥人員穿戴的硬帽</MGR_ArmyCap_Desert.description>
   
   <!-- EN: army cap -olive -->
-  <MGR_ArmyCap_Olive.label>TODO</MGR_ArmyCap_Olive.label>
+  <MGR_ArmyCap_Olive.label>軍帽(橄欖綠)</MGR_ArmyCap_Olive.label>
   <!-- EN: a soft cap for military man when combat helmet is not required. -->
-  <MGR_ArmyCap_Olive.description>TODO</MGR_ArmyCap_Olive.description>
+  <MGR_ArmyCap_Olive.description>一種非戰鬥人員穿戴的硬帽</MGR_ArmyCap_Olive.description>
   
   <!-- EN: army cap -polar -->
-  <MGR_ArmyCap_Polar.label>TODO</MGR_ArmyCap_Polar.label>
+  <MGR_ArmyCap_Polar.label>軍帽(極地)</MGR_ArmyCap_Polar.label>
   <!-- EN: a soft cap for military man when combat helmet is not required. -->
-  <MGR_ArmyCap_Polar.description>TODO</MGR_ArmyCap_Polar.description>
+  <MGR_ArmyCap_Polar.description>一種非戰鬥人員穿戴的硬帽</MGR_ArmyCap_Polar.description>
   
   <!-- EN: army cap -yellow -->
-  <MGR_ArmyCap_Yellow.label>TODO</MGR_ArmyCap_Yellow.label>
+  <MGR_ArmyCap_Yellow.label>軍帽(黃)</MGR_ArmyCap_Yellow.label>
   <!-- EN: a soft cap for military man when combat helmet is not required. -->
-  <MGR_ArmyCap_Yellow.description>TODO</MGR_ArmyCap_Yellow.description>
+  <MGR_ArmyCap_Yellow.description>一種非戰鬥人員穿戴的硬帽</MGR_ArmyCap_Yellow.description>
   
   <!-- EN: Balaclava-black -->
-  <MGR_Balaclava_Black.label>TODO</MGR_Balaclava_Black.label>
+  <MGR_Balaclava_Black.label>戰鬥面罩(黑)</MGR_Balaclava_Black.label>
   <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
-  <MGR_Balaclava_Black.description>TODO</MGR_Balaclava_Black.description>
+  <MGR_Balaclava_Black.description>一種旨在僅暴露部分臉部的面罩。</MGR_Balaclava_Black.description>
   
   <!-- EN: Balaclava(full-coverd)-black -->
-  <MGR_Balaclava_FullCover_Black.label>TODO</MGR_Balaclava_FullCover_Black.label>
+  <MGR_Balaclava_FullCover_Black.label>全覆面罩(黑)</MGR_Balaclava_FullCover_Black.label>
   <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
-  <MGR_Balaclava_FullCover_Black.description>TODO</MGR_Balaclava_FullCover_Black.description>
+  <MGR_Balaclava_FullCover_Black.description>一種旨在僅暴露部分臉部的面罩。</MGR_Balaclava_FullCover_Black.description>
   
   <!-- EN: Balaclava(full-coverd)-yellow -->
-  <MGR_Balaclava_FullCover_Yellow.label>TODO</MGR_Balaclava_FullCover_Yellow.label>
+  <MGR_Balaclava_FullCover_Yellow.label>全覆面罩(黃)</MGR_Balaclava_FullCover_Yellow.label>
   <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
-  <MGR_Balaclava_FullCover_Yellow.description>TODO</MGR_Balaclava_FullCover_Yellow.description>
+  <MGR_Balaclava_FullCover_Yellow.description>一種旨在僅暴露部分臉部的面罩。</MGR_Balaclava_FullCover_Yellow.description>
   
   <!-- EN: Balaclava-gas mask -->
-  <MGR_Balaclava_GasMask.label>TODO</MGR_Balaclava_GasMask.label>
+  <MGR_Balaclava_GasMask.label>防毒面罩(黑)</MGR_Balaclava_GasMask.label>
   <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
-  <MGR_Balaclava_GasMask.description>TODO</MGR_Balaclava_GasMask.description>
+  <MGR_Balaclava_GasMask.description>一種旨在僅暴露部分臉部的面罩。</MGR_Balaclava_GasMask.description>
   
   <!-- EN: Balaclava-yellow -->
-  <MGR_Balaclava_Yellow.label>TODO</MGR_Balaclava_Yellow.label>
+  <MGR_Balaclava_Yellow.label>戰鬥面罩(黃)</MGR_Balaclava_Yellow.label>
   <!-- EN: a form of cloth headgear designed to expose only part of the face. -->
-  <MGR_Balaclava_Yellow.description>TODO</MGR_Balaclava_Yellow.description>
+  <MGR_Balaclava_Yellow.description>一種旨在僅暴露部分臉部的面罩。</MGR_Balaclava_Yellow.description>
   
   <!-- EN: battle dress -->
-  <MGR_BattleDress.label>TODO</MGR_BattleDress.label>
+  <MGR_BattleDress.label>戰鬥裝甲服</MGR_BattleDress.label>
   <!-- EN: Heavy armored gear equipment that gives full protect of body. -->
-  <MGR_BattleDress.description>TODO</MGR_BattleDress.description>
+  <MGR_BattleDress.description>一種提供嚴密保護的重型複合裝甲防護服</MGR_BattleDress.description>
   
   <!-- EN: combat uniform -desert -->
-  <MGR_CU_Desert.label>TODO</MGR_CU_Desert.label>
+  <MGR_CU_Desert.label>戰鬥制服(沙漠)</MGR_CU_Desert.label>
   <!-- EN: a jumpsuit designed for combat unit. -->
-  <MGR_CU_Desert.description>TODO</MGR_CU_Desert.description>
+  <MGR_CU_Desert.description>用於戰鬥人員的連身制服</MGR_CU_Desert.description>
   
   <!-- EN: combat uniform -olive -->
-  <MGR_CU_Olive.label>TODO</MGR_CU_Olive.label>
+  <MGR_CU_Olive.label>戰鬥制服(橄欖綠)</MGR_CU_Olive.label>
   <!-- EN: a stuffable jumpsuit designed for combat unit. -->
-  <MGR_CU_Olive.description>TODO</MGR_CU_Olive.description>
+  <MGR_CU_Olive.description>用於戰鬥人員的連身制服</MGR_CU_Olive.description>
   
   <!-- EN: combat uniform -polar -->
-  <MGR_CU_Polar.label>TODO</MGR_CU_Polar.label>
+  <MGR_CU_Polar.label>戰鬥制服(極地)</MGR_CU_Polar.label>
   <!-- EN: a jumpsuit designed for combat unit. -->
-  <MGR_CU_Polar.description>TODO</MGR_CU_Polar.description>
+  <MGR_CU_Polar.description>用於戰鬥人員的連身制服</MGR_CU_Polar.description>
   
   <!-- EN: combat uniform -splitter -->
-  <MGR_CU_Splitter.label>TODO</MGR_CU_Splitter.label>
+  <MGR_CU_Splitter.label>戰鬥制服(森林)</MGR_CU_Splitter.label>
   <!-- EN: a jumpsuit designed for combat unit. -->
-  <MGR_CU_Splitter.description>TODO</MGR_CU_Splitter.description>
+  <MGR_CU_Splitter.description>用於戰鬥人員的連身制服</MGR_CU_Splitter.description>
   
   <!-- EN: combat uniform -->
-  <MGR_CU_Stuffable.label>TODO</MGR_CU_Stuffable.label>
+  <MGR_CU_Stuffable.label>戰鬥制服</MGR_CU_Stuffable.label>
   <!-- EN: a stuffable jumpsuit designed for combat unit. -->
-  <MGR_CU_Stuffable.description>TODO</MGR_CU_Stuffable.description>
+  <MGR_CU_Stuffable.description>用於戰鬥人員的連身制服</MGR_CU_Stuffable.description>
   
   <!-- EN: combat uniform -tundra -->
-  <MGR_CU_Tundra.label>TODO</MGR_CU_Tundra.label>
+  <MGR_CU_Tundra.label>戰鬥制服(凍原)</MGR_CU_Tundra.label>
   <!-- EN: a jumpsuit designed for combat unit. -->
-  <MGR_CU_Tundra.description>TODO</MGR_CU_Tundra.description>
+  <MGR_CU_Tundra.description>用於戰鬥人員的連身制服</MGR_CU_Tundra.description>
   
   <!-- EN: combat uniform -urban -->
-  <MGR_CU_Urban.label>TODO</MGR_CU_Urban.label>
+  <MGR_CU_Urban.label>戰鬥制服(都市)</MGR_CU_Urban.label>
   <!-- EN: a jumpsuit designed for combat unit,it's camouflage can confuse enemies in\n			close combat. -->
-  <MGR_CU_Urban.description>TODO</MGR_CU_Urban.description>
+  <MGR_CU_Urban.description>用於戰鬥人員的連身制服</MGR_CU_Urban.description>
   
   <!-- EN: combat uniform -worksuit -->
-  <MGR_CU_WorkSuit.label>TODO</MGR_CU_WorkSuit.label>
+  <MGR_CU_WorkSuit.label>戰鬥制服(黃)</MGR_CU_WorkSuit.label>
   <!-- EN: a jumpsuit designed for non-combatant unit. -->
-  <MGR_CU_WorkSuit.description>TODO</MGR_CU_WorkSuit.description>
+  <MGR_CU_WorkSuit.description>用於戰鬥人員的連身制服</MGR_CU_WorkSuit.description>
   
   <!-- EN: full-covered helmet -->
-  <MGR_FullCoveredHelmet.label>TODO</MGR_FullCoveredHelmet.label>
+  <MGR_FullCoveredHelmet.label>戰鬥裝甲頭盔</MGR_FullCoveredHelmet.label>
   <!-- EN: a full covered helmet for heavy gunner and sappers -->
-  <MGR_FullCoveredHelmet.description>TODO</MGR_FullCoveredHelmet.description>
+  <MGR_FullCoveredHelmet.description>用於重型槍手與工兵的重型全覆式防彈頭盔</MGR_FullCoveredHelmet.description>
   
   <!-- EN: tactical holster-black -->
-  <MGR_Holster_Black.label>TODO</MGR_Holster_Black.label>
+  <MGR_Holster_Black.label>戰術槍帶(黑)</MGR_Holster_Black.label>
   <!-- EN: A light-weight harness with holster and a number of pouches to store magazines and other equipment. -->
-  <MGR_Holster_Black.description>TODO</MGR_Holster_Black.description>
+  <MGR_Holster_Black.description>一種輕型槍帶，帶有槍套和多個用於存放彈藥和其他裝備的小包。</MGR_Holster_Black.description>
   
   <!-- EN: tactical holster-olive -->
-  <MGR_Holster_Olive.label>TODO</MGR_Holster_Olive.label>
+  <MGR_Holster_Olive.label>戰術槍帶(橄欖綠)</MGR_Holster_Olive.label>
   <!-- EN: A light-weight harness with holster and a number of pouches to store magazines and other equipment. -->
-  <MGR_Holster_Olive.description>TODO</MGR_Holster_Olive.description>
+  <MGR_Holster_Olive.description>一種輕型槍帶，帶有槍套和多個用於存放彈藥和其他裝備的小包。</MGR_Holster_Olive.description>
   
   <!-- EN: lab coat -->
-  <MGR_LabCoat.label>TODO</MGR_LabCoat.label>
+  <MGR_LabCoat.label>研究服</MGR_LabCoat.label>
   <!-- EN: a labcoat for Research and Development units. -->
-  <MGR_LabCoat.description>TODO</MGR_LabCoat.description>
+  <MGR_LabCoat.description>用於工程研發部門的白色無塵大衣</MGR_LabCoat.description>
   
   <!-- EN: STABO grey -->
-  <MGR_STABO_Grey.label>TODO</MGR_STABO_Grey.label>
+  <MGR_STABO_Grey.label>STABO</MGR_STABO_Grey.label>
   <!-- EN: A full body harness designed for airborne operation forces. -->
-  <MGR_STABO_Grey.description>TODO</MGR_STABO_Grey.description>
+  <MGR_STABO_Grey.description>用於空降部隊的全身式綁帶</MGR_STABO_Grey.description>
   
   <!-- EN: variable body armor -->
-  <MGR_VBA.label>TODO</MGR_VBA.label>
+  <MGR_VBA.label>VBA背心</MGR_VBA.label>
   <!-- EN: A small arms protective body armor for aircrews. -->
-  <MGR_VBA.description>TODO</MGR_VBA.description>
+  <MGR_VBA.description>用於空勤機組人員保護的重型防彈背心</MGR_VBA.description>
   
 </LanguageData>
