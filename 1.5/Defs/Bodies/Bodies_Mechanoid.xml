@@ -49,7 +49,7 @@
       <parts>
         <li>
           <def>MechanicalNeck</def>
-          <coverage>0.3</coverage>
+          <coverage>0.2</coverage>
           <customLabel>Head Mounting platform</customLabel>
           <height>Top</height>
           <parts>
@@ -193,7 +193,7 @@
       <parts>
         <li>
           <def>MechanicalNeck</def>
-          <coverage>0.3</coverage>
+          <coverage>0.2</coverage>
           <customLabel>Head Mounting platform</customLabel>
           <height>Top</height>
           <parts>

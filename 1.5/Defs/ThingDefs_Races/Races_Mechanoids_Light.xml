@@ -151,7 +151,6 @@
     </descriptionHyperlinks>    
     <jobString>Gestating mech.</jobString>
     <workAmount>1800</workAmount>
-    <gestationCycles>1</gestationCycles>
     <formingTicks>12000</formingTicks><!-- 2 days -->
     <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <workSpeedStat>MechFormingSpeed</workSpeedStat>
