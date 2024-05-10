@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: walker -->
+  <MGR_Mech_WalkerGear.label>輕裝步行機甲</MGR_Mech_WalkerGear.label>
+  
+  <!-- EN: walker flamer -->
+  <MGR_Mech_WalkerGear_Flamer.label>噴火步行機甲</MGR_Mech_WalkerGear_Flamer.label>
+  
+  <!-- EN: walker gunner -->
+  <MGR_Mech_WalkerGear_Gunner.label>機槍步行機甲</MGR_Mech_WalkerGear_Gunner.label>
+  
+</LanguageData>

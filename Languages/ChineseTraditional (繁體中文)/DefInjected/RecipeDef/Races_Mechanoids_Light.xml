@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gestate walker gear -->
+  <MGR_BuildWalkerGear.label>TODO</MGR_BuildWalkerGear.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGear.description>TODO</MGR_BuildWalkerGear.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGear.jobString>TODO</MGR_BuildWalkerGear.jobString>
+  
+  <!-- EN: gestate walker gear flamer -->
+  <MGR_BuildWalkerGearFlamer.label>TODO</MGR_BuildWalkerGearFlamer.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGearFlamer.description>TODO</MGR_BuildWalkerGearFlamer.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGearFlamer.jobString>TODO</MGR_BuildWalkerGearFlamer.jobString>
+  
+  <!-- EN: gestate walker gear gunner -->
+  <MGR_BuildWalkerGearGunner.label>TODO</MGR_BuildWalkerGearGunner.label>
+  <!-- EN: Gestate a walker gear. -->
+  <MGR_BuildWalkerGearGunner.description>TODO</MGR_BuildWalkerGearGunner.description>
+  <!-- EN: Gestating mech. -->
+  <MGR_BuildWalkerGearGunner.jobString>TODO</MGR_BuildWalkerGearGunner.jobString>
+  
+</LanguageData>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>LeftPowerLeg</defName>
+    <label>left power leg</label>
+    <labelShort>power leg</labelShort>
+  </BodyPartGroupDef>
+  
+  <BodyPartGroupDef>
+    <defName>RightPowerLeg</defName>
+    <label>right power leg</label>
+    <labelShort>power leg</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartDef>
+    <defName>MGR_SyntheticalLeg</defName>
+    <label>leg</label>
+    <hitPoints>38</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>false</solid>
+    <alive>true</alive>
+    <bleedRate>0.5</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyDef>
+    <defName>Mech_WalkerGear</defName>
+    <label>a bipedal robot walker that has combat capabilities, it is supposed to be manned but people in rimworld find out it works better without man.</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>MechanicalNeck</def>
+          <coverage>0.3</coverage>
+          <customLabel>Head Mounting platform</customLabel>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>MechanicalHead</def>
+              <coverage>0.80</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>ArtificialBrain</def>
+                  <coverage>0.10</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <customLabel>left sight sensor cluster</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <customLabel>right sight sensor cluster</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>HearingSensor</def>
+                  <customLabel>left hearing sensor</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>HearingSensor</def>
+                  <customLabel>right hearing sensor</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>SmellSensor</def>
+                  <coverage>0.10</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <customLabel>left mounting</customLabel>
+          <coverage>0.01</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <customLabel>left mountpoint</customLabel>
+              <coverage>0.85</coverage>
+            </li>
+          </parts>
+          <groups>
+            <li>Arms</li>
+          </groups>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <customLabel>right mounting</customLabel>
+          <coverage>0.01</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <customLabel>right mountpoint</customLabel>
+              <coverage>0.85</coverage>
+            </li>
+          </parts>
+          <groups>
+            <li>Arms</li>
+          </groups>
+        </li>
+		
+        <li>
+          <def>MechanicalLeg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+              <li>LeftPowerLeg</li>
+              </groups>
+            </li>
+          </parts>
+          <groups>
+            <li>LeftPowerLeg</li>
+          </groups>
+        </li>
+        <li>
+          <def>MechanicalLeg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+			        <groups>
+                <li>RightPowerLeg</li>
+              </groups>
+            </li>
+          </parts>
+          <groups>
+            <li>RightPowerLeg</li>
+          </groups>
+        </li>
+
+        <li>
+          <def>Reactor</def>
+          <customLabel>battery</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef>
+    <defName>Mech_Gekko</defName>
+    <label>a large unmanned autonomous fighting vehicle developed for use in ground combat in 21st century.</label>
+    <corePart>
+      <def>MechanicalThorax</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>MechanicalNeck</def>
+          <coverage>0.3</coverage>
+          <customLabel>Head Mounting platform</customLabel>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>MechanicalHead</def>
+              <coverage>0.80</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>ArtificialBrain</def>
+                  <coverage>0.10</coverage>
+                  <depth>Inside</depth>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <customLabel>left sight sensor cluster</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>SightSensor</def>
+                  <customLabel>right sight sensor cluster</customLabel>
+                  <coverage>0.13</coverage>
+                </li>
+                <li>
+                  <def>HearingSensor</def>
+                  <customLabel>left hearing sensor</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>HearingSensor</def>
+                  <customLabel>right hearing sensor</customLabel>
+                  <coverage>0.10</coverage>
+                </li>
+                <li>
+                  <def>SmellSensor</def>
+                  <coverage>0.10</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <customLabel>left mounting</customLabel>
+          <coverage>0.01</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <customLabel>left mountpoint</customLabel>
+              <coverage>0.85</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalShoulder</def>
+          <customLabel>right mounting</customLabel>
+          <coverage>0.01</coverage>
+          <parts>
+            <li>
+              <def>MechanicalArm</def>
+              <customLabel>right mountpoint</customLabel>
+              <coverage>0.85</coverage>
+            </li>
+          </parts>
+        </li>
+		
+        <li>
+          <def>MGR_SyntheticalLeg</def>
+          <customLabel>left leg</customLabel>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+              <groups>
+              <li>LeftPowerLeg</li>
+              </groups>
+            </li>
+		    	  <li>
+              <def>PowerClaw</def>
+              <customLabel>left toe claw</customLabel>
+              <coverage>0.1</coverage>
+              <height>Bottom</height>
+              <groups>
+              <li>LeftPowerClaw</li>
+              </groups>
+            </li>
+          </parts>
+          <groups>
+            <li>LeftPowerLeg</li>
+          </groups>
+        </li>
+		
+        <li>
+          <def>MGR_SyntheticalLeg</def>
+          <customLabel>right leg</customLabel>
+          <coverage>0.3</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>MechanicalFoot</def>
+              <customLabel>right foot</customLabel>
+              <coverage>0.2</coverage>
+			        <groups>
+                <li>RightPowerLeg</li>
+              </groups>
+            </li>
+			      <li>
+              <def>PowerClaw</def>
+              <customLabel>right toe claw</customLabel>
+              <coverage>0.1</coverage>
+              <height>Bottom</height>
+			        <groups>
+                <li>RightPowerClaw</li>
+              </groups>
+            </li>
+          </parts>
+          <groups>
+            <li>RightPowerLeg</li>
+          </groups>
+        </li>
+
+        <li>
+          <def>Reactor</def>
+          <customLabel>battery</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>FluidReprocessor</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>

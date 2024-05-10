@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 近戰武器 -->
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Club</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Knife</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_K</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Ikwa</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_I</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Spear</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_S</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Mace</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_M</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Gladius</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_G</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_LongSword</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_LS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>MGS_MeleeWeapon_BreachAxe</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_BA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<!-- <ThingStyleDef>
+		<defName>MGS_MeleeWeapon_Axe</defName>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef> -->
+
+	<!-- 遠程武器 -->
+
+	<!-- <ThingStyleDef> -->
+	<!-- <defName>Gun_MGSChargeRifle</defName> -->
+	<!-- <graphicData> -->
+	<!-- <texPath>MGS_Style/StylePack_CR</texPath> -->
+	<!-- <graphicClass>Graphic_Single</graphicClass> -->
+	<!-- </graphicData> -->
+	<!-- </ThingStyleDef> -->
+
+	<ThingStyleDef>
+		<defName>Gun_MGSRevolver</defName>
+		<overrideLabel>Uragan-5</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_RR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSMachinePistol</defName>
+		<overrideLabel>Sz.336</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_MP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSAutopistol</defName>
+		<overrideLabel>Geist P3</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_AP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSChainShotgun</defName>
+		<overrideLabel>Bullhorn</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_CS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSPumpShotgun</defName>
+		<overrideLabel>S1000</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_PS</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSHeavySMG</defName>
+		<overrideLabel>MACHT 37</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_HSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSLMG</defName>
+		<overrideLabel>UN-AAM</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_LMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSAssaultRifle</defName>
+		<overrideLabel>G44</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_AR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSSniperRifle</defName>
+		<overrideLabel>M2000D Scoped</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_SR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>Gun_MGSBoltActionRifle</defName>
+		<overrideLabel>M2000D</overrideLabel>
+		<graphicData>
+			<texPath>MGS_Style/StylePack_RF</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>

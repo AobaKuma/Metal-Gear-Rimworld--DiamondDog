@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acid spray -->
+  <MGR_AcidSpray.label>酸液噴射</MGR_AcidSpray.label>
+  <!-- EN: Spray a sticky acid substance from glands in the neck up through the excretory port and all over the target area. The acid will stick to targets and burn them over time. -->
+  <MGR_AcidSpray.description>透過從排放口噴射的強酸性液體來灼燒靠近的敵人</MGR_AcidSpray.description>
+  
+  <!-- EN: mech longjump -->
+  <MGR_LongjumpMech.label>跳躍</MGR_LongjumpMech.label>
+  <!-- EN: Jump to a distant location using special ultrafast mechanoid muscles. -->
+  <MGR_LongjumpMech.description>透過強勁的人工肌肉來進行長距離跳躍</MGR_LongjumpMech.description>
+  <!-- EN: jump -->
+  <MGR_LongjumpMech.verbProperties.label>跳躍</MGR_LongjumpMech.verbProperties.label>
+  
+</LanguageData>

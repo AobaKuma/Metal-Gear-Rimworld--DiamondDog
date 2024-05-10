@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: diamond dog -->
+  <MGR_DiamondDog.label>鑽石狗</MGR_DiamondDog.label>
+  <!-- EN:  -->
+  <MGR_DiamondDog.description>這些人自稱稱為“鑽石狗”，一支服務於任何人的武裝力量，或者簡單地說他們是一家私人軍事公司。他們的基地遍布邊緣世界，他們為所有客戶提供服務，無論其陣營或意識形態。</MGR_DiamondDog.description>
+  <!-- EN: big boss -->
+  <MGR_DiamondDog.leaderTitle>TODO</MGR_DiamondDog.leaderTitle>
+  <!-- EN: mercenary dog -->
+  <MGR_DiamondDog.pawnSingular>雇傭兵</MGR_DiamondDog.pawnSingular>
+  <!-- EN: mercenary dogs -->
+  <MGR_DiamondDog.pawnsPlural>雇傭兵</MGR_DiamondDog.pawnsPlural>
+  
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: diamond dog gunner -->
+  <MGR_DD_Gunner.label>槍手</MGR_DD_Gunner.label>
+  
+  <!-- EN: diamond dog heavygunner -->
+  <MGR_DD_HeavyGunner.label>重型槍手</MGR_DD_HeavyGunner.label>
+  
+  <!-- EN: diamond dog researcher -->
+  <MGR_DD_Researcher.label>研發人員</MGR_DD_Researcher.label>
+  
+  <!-- EN: diamond dog rifleman -->
+  <MGR_DD_RifleGunner.label>步槍手</MGR_DD_RifleGunner.label>
+  
+  <!-- EN: diamond dog sniper -->
+  <MGR_DD_RifleSniper.label>狙擊手</MGR_DD_RifleSniper.label>
+  
+  <!-- EN: diamond dog support gunner -->
+  <MGR_DD_SupportGunner.label>支援槍手</MGR_DD_SupportGunner.label>
+  
+  <!-- EN: diamond dog worker -->
+  <MGR_DD_Worker.label>後勤人員</MGR_DD_Worker.label>
+  
+</LanguageData>

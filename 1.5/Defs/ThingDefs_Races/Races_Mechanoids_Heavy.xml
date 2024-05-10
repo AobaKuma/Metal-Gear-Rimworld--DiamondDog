@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <LifeStageDef>
+    <defName>MGR_GekkoFullyformed</defName>
+    <label>fully-formed</label>
+    <caravanRideable>true</caravanRideable>
+    <visible>false</visible>
+  </LifeStageDef>
+
+  <AbilityDef Name="LongJumpMech">
+    <defName>MGR_LongjumpMech</defName>
+    <label>mech longjump</label>
+    <description>Jump to a distant location using special ultrafast mechanoid muscles.</description>
+    <iconPath>UI/Abilities/MechLongJump</iconPath>
+    <cooldownTicksRange>480</cooldownTicksRange>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0.5</warmupTime>
+      <minRange>5.9</minRange>
+      <range>19.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Pawn_Muffalo_Angry</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <flyWithCarriedThing>false</flyWithCarriedThing>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>MGR_AcidSpray</defName>
+    <label>acid spray</label>
+    <description>Spray a sticky acid substance from glands in the neck up through the excretory port and all over the target area. The acid will stick to targets and burn them over time.</description>
+    <iconPath>UI/Abilities/AcidSpray</iconPath>
+    <cooldownTicksRange>30000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <warmupStartSound>AcidSpray_Warmup</warmupStartSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>2.9</range>
+      <warmupTime>0.5</warmupTime>
+      <soundCast>AcidSpray_Resolve</soundCast>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySprayLiquid">
+        <projectileDef>Proj_Acid</projectileDef>
+        <numCellsToHit>9</numCellsToHit>
+        <sprayEffecter>AcidSpray_Directional</sprayEffecter>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <ThingDef ParentName="BaseMechanoidWalker">
+    <defName>MGR_Mech_Gekko</defName>
+    <label>gekko</label>
+    <description>a large unmanned autonomous fighting vehicle developed for use in ground combat in 21st century. /n/n Attached to the hips were a pair of very strong legs with three-toed clawed feet and a single large claw on each heel./n These legs, unlike the head, neck, body and hips, were biological, save for the claw on the heel. The legs were composed of artificially created muscle tissue cloned from the stem cells of ungulate embryos. Owing to this, the legs, despite largely being mechanical, strongly resembled the muscles of living organisms.</description>
+    <statBases>
+      <MoveSpeed>6.80</MoveSpeed>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+      <BandwidthCost MayRequire="Ludeon.RimWorld.Biotech">3</BandwidthCost>
+      <CaravanRidingSpeedFactor>2</CaravanRidingSpeedFactor>
+    </statBases>
+    <butcherProducts>
+      <Steel>100</Steel>
+    </butcherProducts>
+    <race>
+      <body>Mech_Gekko</body>
+      <baseBodySize>4</baseBodySize>
+      <baseHealthScale>2</baseHealthScale>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MGR_GekkoFullyformed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+        <li>
+          <def>MGR_GekkoFullyformed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <bulletStaggerIgnoreBodySize>false</bulletStaggerIgnoreBodySize>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+      </mechEnabledWorkTypes>
+    </race>
+    <tools>
+      <li>
+        <label>Mechanical Head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>5.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.08</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>24</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+
+      <li>
+        <label>Left Leg</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerLeg</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>12</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+
+      <li>
+        <label>Right Leg</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3.5</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerLeg</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>12</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+
+      <li>
+        <label>Left Toe</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>Right Toe</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>Mechanical tentacle</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.25</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.02</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>24</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>MGR_Mech_Gekko</defName>
+    <label>gekko</label>
+    <race>MGR_Mech_Gekko</race>
+    <combatPower>400</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Mech_Gekko/Gekko</texPath>
+          <maskPath>Things/Mech_Gekko/AllegianceOverlays/Gekko</maskPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3</drawSize>
+          <drawOffset>(0, 0.5, 0)</drawOffset>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+          <color>(76,80,68)</color>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Mech_Gekko/Gekko</texPath>
+          <maskPath>Things/Mech_Gekko/AllegianceOverlays/Gekko</maskPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>3</drawSize>
+          <drawOffset>(0, 0.5, 0)</drawOffset>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+          <color>(76,80,68)</color>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>MGR_MechanoidGunHeavy</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <abilities>
+      <li>MGR_AcidSpray</li>
+      <li>MGR_LongjumpMech</li>
+    </abilities>
+    <controlGroupPortraitZoom>0.5</controlGroupPortraitZoom>
+  </PawnKindDef>
+
+  <RecipeDef  MayRequire="Ludeon.RimWorld.Biotech" ParentName="HeavyMechanoidRecipe">
+    <defName>MGR_BuildGekko</defName>
+    <label>gestate gekko mech</label>
+    <description>Gestate a gekko mechanoid.</description>
+    <gestationCycles>5</gestationCycles>
+    <researchPrerequisite>StandardMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>140</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MGR_Mech_Gekko>1</MGR_Mech_Gekko>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>MGR_Mech_Gekko</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

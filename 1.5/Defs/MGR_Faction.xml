@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RulePackDef>
+		<defName>MGR_DDFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Diamond [dog]</li>
+				<li>dog->Dog</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>MGR_DDFactionOutposts</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->base.[Code]</li>
+				<li>name->fort.[Code]</li>
+				<li>name->outpost.[Code]</li>
+
+				<li>Code->alpha</li>
+				<li>Code->bravo</li>
+				<li>Code->charlie</li>
+				<li>Code->delta</li>
+				<li>Code->echo</li>
+				<li>Code->foxtrot</li>
+				<li>Code->golf</li>
+				<li>Code->hotel</li>
+				<li>Code->india</li>
+				<li>Code->juliett</li>
+				<li>Code->kilo</li>
+				<li>Code->lima</li>
+				<li>Code->mike</li>
+				<li>Code->november</li>
+				<li>Code->oscar</li>
+				<li>Code->papa</li>
+				<li>Code->quebec</li>
+				<li>Code->rotor</li>
+				<li>Code->sierra</li>
+				<li>Code->tango</li>
+				<li>Code->uniform</li>
+				<li>Code->victor</li>
+				<li>Code->whiskey</li>
+				<li>Code->xeno</li>
+				<li>Code->yankee</li>
+				<li>Code->zulu</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<FactionDef ParentName="OutlanderFactionBase">
+		<defName>MGR_DiamondDog</defName>
+		<label>diamond dog</label>
+		<description>These people are known as Diamond Dog, an army without borders, or simply said they are a private military company, their bases are established all over the rimworld and provided their services to all clients, regardless of nation or ideology.</description>
+		<colorSpectrum>
+			<li>(1, 1, 1)</li>
+			<li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<allowedCultures Inherit="false">
+			<li>DD_Culture</li>
+		</allowedCultures>
+		<factionIconPath>Icon/MGS_PlayerIcon</factionIconPath>
+		<naturalEnemy>true</naturalEnemy>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistEmbodied</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+		</disallowedMemes>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<pawnSingular>mercenary dog</pawnSingular>
+		<pawnsPlural>mercenary dogs</pawnsPlural>
+		<leaderTitle>big boss</leaderTitle>
+		<factionNameMaker>MGR_DDFaction</factionNameMaker>
+		<settlementNameMaker>MGR_DDFactionOutposts</settlementNameMaker>
+		<fixedLeaderKinds>
+			<li>MGR_DD_Researcher</li>
+			<li>MGR_DD_HeavyGunner</li>
+		</fixedLeaderKinds>
+		<autoFlee>false</autoFlee>
+		<techLevel>Industrial</techLevel>
+		<pawnGroupMakers Inherit="False">
+			<li>
+			  <!-- Normal fights, standard mix -->
+			  <kindDef>Combat</kindDef>
+			  <options>
+				<MGR_DD_Worker>5</MGR_DD_Worker>
+				<MGR_DD_Gunner>10</MGR_DD_Gunner>
+				<MGR_Mech_Gekko>1.5</MGR_Mech_Gekko>
+				<MGR_Mech_WalkerGear_Gunner>7</MGR_Mech_WalkerGear_Gunner>
+				<MGR_DD_RifleGunner>10</MGR_DD_RifleGunner>
+				<MGR_DD_HeavyGunner>6</MGR_DD_HeavyGunner>
+			  </options>
+			</li>			
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<options>
+				  <MGR_DD_Gunner>10</MGR_DD_Gunner>
+				  <MGR_Mech_Gekko>1.5</MGR_Mech_Gekko>
+				  <MGR_Mech_WalkerGear_Gunner>7</MGR_Mech_WalkerGear_Gunner>
+				  <MGR_DD_RifleGunner>10</MGR_DD_RifleGunner>
+				  <MGR_DD_RifleSniper>6</MGR_DD_RifleSniper>
+				</options>
+			  </li>
+			<li>
+			  <kindDef>Peaceful</kindDef>
+			  <options>
+				<MGR_DD_Worker>20</MGR_DD_Worker>
+				<Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+				<MGR_DD_Gunner>10</MGR_DD_Gunner>
+				<MGR_DD_Researcher>3</MGR_DD_Researcher>
+			  </options>
+			</li>
+			<li>
+			  <kindDef>Trader</kindDef>
+			  <traders>
+				<Town_Trader>1</Town_Trader>
+			  </traders>
+			  <carriers>
+				<Muffalo>6</Muffalo>
+				<Dromedary>5</Dromedary>
+				<Alpaca>2</Alpaca>
+				<Elephant>1</Elephant>
+			  </carriers>
+			  <guards>
+				<MGR_DD_Worker>3</MGR_DD_Worker>
+				<MGR_DD_Gunner>10</MGR_DD_Gunner>
+				<MGR_Mech_Gekko>1.5</MGR_Mech_Gekko>
+				<MGR_Mech_WalkerGear_Gunner>7</MGR_Mech_WalkerGear_Gunner>
+				<MGR_DD_RifleGunner>10</MGR_DD_RifleGunner>
+				<MGR_DD_HeavyGunner>3</MGR_DD_HeavyGunner>
+			  </guards>
+			</li>
+			<li>
+			  <kindDef>Settlement</kindDef>
+			  <options>
+				<MGR_DD_Worker>10</MGR_DD_Worker>
+				<MGR_DD_Gunner>10</MGR_DD_Gunner>
+				<MGR_Mech_Gekko>1.5</MGR_Mech_Gekko>
+				<MGR_Mech_WalkerGear_Gunner>7</MGR_Mech_WalkerGear_Gunner>
+				<MGR_DD_RifleGunner>10</MGR_DD_RifleGunner>
+				<MGR_DD_HeavyGunner>3</MGR_DD_HeavyGunner>
+				<MGR_DD_Researcher>3</MGR_DD_Researcher>
+			  </options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+			  <kindDef>Miners</kindDef>
+			  <commonality>1</commonality>
+			  <options>
+				<MGR_DD_Worker>3</MGR_DD_Worker>
+				<Miner>1</Miner>
+			  </options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+			  <kindDef>Hunters</kindDef>
+			  <commonality>1</commonality>
+			  <options>
+				<MGR_DD_RifleGunner>1</MGR_DD_RifleGunner>
+			  </options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+			  <kindDef>Loggers</kindDef>
+			  <commonality>1</commonality>
+			  <options>
+				<MGR_DD_Worker>3</MGR_DD_Worker>
+				<Logger>1</Logger>
+			  </options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+			  <kindDef>Farmers</kindDef>
+			  <commonality>1</commonality>
+			  <options>
+				<MGR_DD_Worker>3</MGR_DD_Worker>
+				<Farmer>1</Farmer>
+			  </options>
+			</li>
+		  </pawnGroupMakers>
+	</FactionDef>
+
+
+</Defs>

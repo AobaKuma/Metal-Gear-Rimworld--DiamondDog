@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="MGR_DiamodDogFighterBase" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>MGR_DiamondDog</defaultFactionType>
+		<maxGenerationAge>45</maxGenerationAge>
+		<backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+		<styleItemTags>
+			<li>
+				<tag>Soldier</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<chemicalAddictionChance>0.1</chemicalAddictionChance>
+		<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+		<invNutrition>2.55</invNutrition>
+		<itemQuality>Normal</itemQuality>
+		<weaponMoney>500~1500</weaponMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>1250~2500</apparelMoney>
+		<apparelDisallowTags>
+			<li>Western</li>
+		</apparelDisallowTags>
+		<techHediffsChance>0.3</techHediffsChance>
+		<techHediffsMoney>1000~1500</techHediffsMoney>
+		<biocodeWeaponChance>0.15</biocodeWeaponChance>
+		<disallowedTraits>
+			<li>BodyPurist</li>
+		</disallowedTraits>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>9~16</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>8~14</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>6~12</range>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<range>5~11</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_Gunner</defName>
+		<label>diamond dog gunner</label>
+		<combatPower>75</combatPower>
+		<weaponTags Inherit="false">
+			<li>Gun</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>500~700</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_STABO_Grey</li>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_Balaclava_FullCover_Black</li>
+		</apparelRequired>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_SupportGunner</defName>
+		<label>diamond dog support gunner</label>
+		<combatPower>125</combatPower>
+		<weaponTags Inherit="false">
+			<li>Gun</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>700~1000</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_VBA</li>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_ArmyCap_Black</li>
+		</apparelRequired>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_RifleGunner</defName>
+		<label>diamond dog rifleman</label>
+		<combatPower>125</combatPower>
+		<weaponTags Inherit="false">
+			<li>AssaultRifle</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>700~1000</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_STABO_Grey</li>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_Balaclava_FullCover_Black</li>
+		</apparelRequired>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+	
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_RifleSniper</defName>
+		<label>diamond dog sniper</label>
+		<combatPower>125</combatPower>
+		<weaponTags Inherit="false">
+			<li>SniperRifle</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>1000~2000</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>15~20</range>
+			</li>
+		</skills>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_Balaclava_FullCover_Black</li>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_STABO_Grey</li>
+			<li>MGR_Holster_Black</li>
+		</apparelRequired>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_HeavyGunner</defName>
+		<label>diamond dog heavygunner</label>
+		<combatPower>200</combatPower>
+		<factionLeader>true</factionLeader>
+		<weaponTags Inherit="false">
+			<li>GunHeavy</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>2000~4000</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_BattleDress</li>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_FullCoveredHelmet</li>
+		</apparelRequired>
+		<techHediffsChance>0.9</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_Researcher</defName>
+		<label>diamond dog researcher</label>
+		<combatPower>75</combatPower>
+		<weaponTags Inherit="false">
+			<li>Gun</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>500~700</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_CU_Olive</li>
+			<li>MGR_LabCoat</li>
+		</apparelRequired>
+		<skills Inherit="false">
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<range>12~17</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>12~17</range>
+			</li>
+		</skills>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MGR_DiamodDogFighterBase">
+		<defName>MGR_DD_Worker</defName>
+		<label>diamond dog worker</label>
+		<combatPower>75</combatPower>
+		<weaponTags Inherit="false">
+			<li>Gun</li>
+		</weaponTags>
+		<apparelMoney>0</apparelMoney>
+		<weaponMoney>500~700</weaponMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<apparelRequired>
+			<li>MGR_Balaclava_Yellow</li>
+			<li>MGR_CU_WorkSuit</li>
+			<li>MGR_Holster_Black</li>
+		</apparelRequired>
+		<skills Inherit="false">
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<range>12~17</range>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<range>12~17</range>
+			</li>
+		</skills>
+		<techHediffsChance>0.5</techHediffsChance>
+		<initialWillRange>20~25</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

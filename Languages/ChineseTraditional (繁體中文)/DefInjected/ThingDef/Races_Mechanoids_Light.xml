@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: walker gear -->
+  <MGR_Mech_WalkerGear.label>TODO</MGR_Mech_WalkerGear.label>
+  <!-- EN: a small bipedal robot walker that has combat capabilities. -->
+  <MGR_Mech_WalkerGear.description>TODO</MGR_Mech_WalkerGear.description>
+  <!-- EN: Mechanical Head -->
+  <MGR_Mech_WalkerGear.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear.tools.Mechanical_Head.label>
+  <!-- EN: Left arm -->
+  <MGR_Mech_WalkerGear.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear.tools.Left_arm.label>
+  <!-- EN: Right arm -->
+  <MGR_Mech_WalkerGear.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear.tools.Right_arm.label>
+  
+  <!-- EN: walker gear -->
+  <MGR_Mech_WalkerGear_Flamer.label>TODO</MGR_Mech_WalkerGear_Flamer.label>
+  <!-- EN: a small bipedal robot walker that has combat capabilities. -->
+  <MGR_Mech_WalkerGear_Flamer.description>TODO</MGR_Mech_WalkerGear_Flamer.description>
+  <!-- EN: Mechanical Head -->
+  <MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Mechanical_Head.label>
+  <!-- EN: Left arm -->
+  <MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Left_arm.label>
+  <!-- EN: Right arm -->
+  <MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear_Flamer.tools.Right_arm.label>
+  
+  <!-- EN: walker gear -->
+  <MGR_Mech_WalkerGear_Gunner.label>TODO</MGR_Mech_WalkerGear_Gunner.label>
+  <!-- EN: a small bipedal robot walker that has combat capabilities. -->
+  <MGR_Mech_WalkerGear_Gunner.description>TODO</MGR_Mech_WalkerGear_Gunner.description>
+  <!-- EN: Mechanical Head -->
+  <MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Mechanical_Head.label>
+  <!-- EN: Left arm -->
+  <MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Left_arm.label>
+  <!-- EN: Right arm -->
+  <MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>TODO</MGR_Mech_WalkerGear_Gunner.tools.Right_arm.label>
+  
+</LanguageData>

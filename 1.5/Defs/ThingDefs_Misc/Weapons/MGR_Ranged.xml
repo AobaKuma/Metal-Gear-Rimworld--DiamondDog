@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThingDef ParentName="Gun_ChargeBlasterHeavyBase">
+    <defName>MGR_Gun_Autocannon</defName>
+    <label>mounted machinegun</label>
+    <description>An machinegun mounted on the platform.</description>
+    <graphicData>
+      <texPath>Things/Mech_Gekko/Gekko_gun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.75</drawSize>
+    </graphicData>
+	  <uiIconPath>Things/Mech_Gekko/Gekko_gun_UI</uiIconPath>
+    <statBases>
+      <AccuracyTouch>0.36</AccuracyTouch>
+      <AccuracyShort>0.52</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+        <warmupTime>1.25</warmupTime>
+        <range>26.9</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>24</burstShotCount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>MGR_MechanoidGunHeavy</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>

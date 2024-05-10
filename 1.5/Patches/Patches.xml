@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MechGestator"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>MGR_BuildWalkerGear</li>
+			<li>MGR_BuildWalkerGearFlamer</li>
+			<li>MGR_BuildWalkerGearGunner</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>MGR_BuildGekko</li>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs/li</xpath>
+		<value>
+			<li>Corpse_MGR_Mech_WalkerGear</li>
+			<li>Corpse_MGR_Mech_WalkerGear_Flamer</li>
+			<li>Corpse_MGR_Mech_WalkerGear_Gunner</li>
+		</value>
+	</Operation>
+	<!-- Heavy Mech Ressurection Recipe Patches -->
+
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/RecipeDef[defName="ResurrectHeavyMech"]/fixedIngredientFilter/thingDefs/li</xpath>
+		<value>
+			<li>Corpse_MGR_Mech_Gekko</li>
+		</value>
+	</Operation>
+</Patch>

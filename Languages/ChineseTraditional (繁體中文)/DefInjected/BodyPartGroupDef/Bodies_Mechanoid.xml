@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: left power leg -->
+  <LeftPowerLeg.label>左動力足</LeftPowerLeg.label>
+  <!-- EN: power leg -->
+  <LeftPowerLeg.labelShort>動力足</LeftPowerLeg.labelShort>
+  
+  <!-- EN: right power leg -->
+  <RightPowerLeg.label>右動力足</RightPowerLeg.label>
+  <!-- EN: power leg -->
+  <RightPowerLeg.labelShort>動力足</RightPowerLeg.labelShort>
+  
+</LanguageData>
